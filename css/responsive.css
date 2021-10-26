@@ -1,0 +1,789 @@
+@media (min-width:482px) and (max-width:578px) {
+    .navbar{
+        background-color: #1f2833;
+    }
+    .navbar-brand>img{
+        width: 40px; height: auto;
+        margin:-10px 5px 0px 5px;           
+}
+    .slide{
+        margin-top:74px;
+}
+    .banner-heading{
+        z-index: 1;
+        width: 100%;
+        height: 100px; 
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        margin: auto;
+        color: #fff;
+}
+    .banner-heading>h1{
+        line-height: 1.3; 
+        margin-bottom: 10px;
+        font-size: 15px;
+}
+    .banner-link{
+        text-decoration: none;
+        background-color: #1273eb;
+        padding: 3px 10px 6px 10px;
+        color: #fff;
+        font-size: 11px;
+        border-radius: 5px;
+        font-weight: 600;
+}
+    .banner-img{
+        width:100%; 
+        height: auto;
+        image-rendering: pixelated;
+        overflow-x:hidden;  
+        object-fit: contain;            
+}
+    .aboutcontainer{
+        width: 100%;
+        padding-top:40px;
+        padding-bottom: 10px;
+}  
+   
+     h1.about-home{
+        text-align: center;
+        line-height: 1.3;
+        font-size: 28px;
+}
+     h2.about-home{
+        padding-top: 2px;
+        text-align: center;
+        font-size: 20px;
+}
+/* discover heading  */
+     h2.discover-heading{  
+        padding-top: 30px;
+        text-align: center;
+        font-size: 32px;
+}
+    p.discover-heading{
+        text-align: center;
+        font-size: 16px;
+}
+/* scrollable card  */
+    .scroll{
+        width: 100%;
+        height: auto;
+        overflow-x: scroll;
+        overflow-y:hidden;
+        scroll-behavior: smooth;
+        /* background-color: aqua;   */
+}
+ 
+/* !-- select your courses from the following  aboard selection 0f courses   */
+
+    .main_coursesHeadline{
+        width: 100%;
+        height: 73px;
+        padding: 0px 24px;
+          /* background-color: aqua;    */
+        margin: auto;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+}
+    h2.main_coursesHeadline{
+        font-family: SuisseWorks,Georgia,Times,times new roman,serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 1.25;
+        letter-spacing: -.05rem;
+        padding: initial;
+        color: #1f2833;
+        height: initial;
+        /* #6a6f73 */
+  }
+    p.main_coursesHeadline{
+        font-family: "-apple-system",Roboto,"segoe ui",Helvetica,Arial,sans-serif; 
+        font-size:16px;
+        padding: initial;
+        font-weight: 400;
+        color: #1f2833;
+        height: initial;
+}
+    .about_coursesHealine{
+        width: 100%;
+        height: 100px;
+     /* background-color: aqua;  */
+}
+    .coursesHeadline-nv{
+        /* background-color: black; */
+        overflow-x: scroll;
+        overflow-y:hidden ;
+        scroll-behavior: smooth;
+    }
+    .coursesHeadline-nav{
+        /* background-color:blueviolet; */
+        width: 1300px;
+        padding-top: 10px;
+        padding-bottom: 18px;
+        cursor: pointer;
+        /* background-color: blanchedalmond; */
+}
+    .course_nav {
+        background-color: white;
+        padding: 8px 20px;
+        border: 1px solid gray;
+        border-radius: 20px;
+}
+    .coursesHeadline_container{
+        width: 100%;
+     /* background-color: black; */
+}
+    .home_courseHeadline{
+        width: auto;
+        height: auto;
+        padding: 10px 20px;
+     /* background-color: burlywood;  */
+        border:2px solid#edf0f1;
+        border-radius: 6px;
+}
+    .content_coursesHeadline{
+        height: 100px;
+    
+} 
+    .h2content_coursesHeadline{
+        font-family: "-apple-system",Roboto,"segoe ui",Helvetica,Arial,sans-serif; 
+        font-size:21px;
+        padding: 0px;
+        font-weight: 600;
+        margin:0px;
+        line-height: 1;
+        color: #1f2833;
+        width: auto;
+}
+    .pcontent_coursesHeadline{
+        display: none;
+}
+  .anchorbtn_coursesHeadline{
+    text-decoration: none;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    color: black;
+    font-size: 22px;
+    border: 2px solid #edf0f1;
+    border-radius: 6px;
+    background-color: whitesmoke;
+    
+    
+  }
+
+  .courses_container{
+    overflow-x: scroll;
+    overflow-y:hidden;
+    scroll-behavior: smooth;
+    /* background-color: yellow; */
+  }
+  
+  .scroll-courses{
+    width: 3500px;
+    scroll-behavior: smooth;
+    display: flex;}
+  .course_card{
+    width: 250px;
+    height: 250px;
+    background-color:#c9cfdb;
+    border: 2px solid #edf0f1;
+    margin:5px 10px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .course_active, .course_nav:hover {
+    background-color: #717171;
+    color: #ffffff;
+  }
+  
+  footer{
+    width: 100%;
+    height: auto;
+    padding:0px 10px;
+    background-color: #f7f7f7; 
+    margin-top: 2PX;
+  }
+  .footerContainer{
+    width: auto;
+    height: auto;
+   margin: auto;
+   padding-top: 30px;
+   display: flex;
+   flex-wrap: wrap;
+  }
+  .footer-about{
+    width: 100%;
+    height:auto;
+    padding:5px 5px;
+    border: none;
+  }
+  .footer-details{
+      font-size: 20px;
+      color: #1f2833;
+      font-weight: 600;
+      font-family: "-apple-system",'Roboto',"segoe ui",Helvetica,Arial,sans-serif; 
+      
+     
+    }
+.footer-list{
+    font-size: 15px;
+    font-weight: 400;
+    list-style-type:none;
+     padding: 20px 0px 25px 3px;
+     margin: 0;
+     line-height: 1.8;
+}
+}
+/* this is comman css under 991px screen  */
+@media (max-width:991px) {
+
+    .icon-card{
+        margin: 8px;
+    }    #scroll{
+        margin-top: -10px;
+    
+}
+.btnscroll{display: none;}
+.scroll{width: 100%;}
+  
+}
+/* 490 max width screen */
+@media (min-width:401px) and (max-width:481px){
+    .navbar{
+        background-color: #1f2833;
+    }
+    .navbar-brand>img{
+        width: 40px; height: auto;
+        margin:-10px 5px 0px 5px;           
+}
+    .slide{
+        margin-top:68px;
+}
+    .banner-heading{
+        z-index: 1;
+        width: 100%;
+        height:80px; 
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        margin: auto;
+        color: #fff;
+}
+    .banner-heading>h1{
+        line-height: 1.3; 
+        margin-bottom: 10px;
+        font-size: 15px;
+}
+    .banner-link{
+        text-decoration: none;
+        background-color: #1f2833;
+        padding: 3px 10px 6px 10px;
+        color: #fff;
+        font-size: 11px;
+        border-radius: 5px;
+        font-weight: 600;
+}
+    .banner-img{
+        width:100%; 
+        height: auto;
+        image-rendering: pixelated;
+        overflow-x:hidden;  
+        object-fit: contain;            
+}
+    .aboutcontainer{
+        width: 100%;
+        padding-top:40px;
+        padding-bottom: 10px;
+}  
+   
+     h1.about-home{
+        text-align: center;
+        line-height: 1.3;
+        font-size: 20px;
+        font-family: "-apple-system",Roboto,"segoe ui",Helvetica,Arial,sans-serif; 
+        color: #1f2833;
+}
+     h2.about-home{
+        padding-top: 2px;
+        text-align: center;
+        font-size: 16px;
+        font-family: "-apple-system",Roboto,"segoe ui",Helvetica,Arial,sans-serif; 
+        color: #3d4753;
+        font-weight: 400;
+}
+/* discover heading  */
+     h2.discover-heading{  
+        padding-top: 28px;
+        text-align: center;
+        font-size: 26px;
+        font-family: "-apple-system",Roboto,"segoe ui",Helvetica,Arial,sans-serif; 
+        color: #1f2833;
+}
+    p.discover-heading{
+        text-align: center;
+        font-size: 15px;
+        font-family: "-apple-system",Roboto,"segoe ui",Helvetica,Arial,sans-serif; 
+        color: #3d4753;
+        font-weight: 400;
+}
+/* scrollable card  */
+    .scroll{
+        width: 100%;
+        height: auto;
+        overflow-x: scroll;
+        overflow-y:hidden;
+        scroll-behavior: smooth;
+        /* background-color: aqua;   */
+}
+ 
+/* !-- select your courses from the following  aboard selection 0f courses   */
+
+    .main_coursesHeadline{
+        width: 100%;
+        height: 62px;
+        padding: 0px 12px;
+          /* background-color: aqua;    */
+        margin: auto;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+}
+    h2.main_coursesHeadline{
+        font-family: SuisseWorks,Georgia,Times,times new roman,serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+        font-weight: 700;
+        font-size: 27px;
+        line-height: 1.25;
+        letter-spacing: -.05rem;
+        padding: initial;
+        color: #1f2833;
+        height: initial;
+        /* #6a6f73 */
+  }
+    p.main_coursesHeadline{
+        font-family: "-apple-system",Roboto,"segoe ui",Helvetica,Arial,sans-serif; 
+        font-size:15px;
+        padding: initial;
+        font-weight: 400;
+        color: #1f2833;
+        height: initial;
+}
+    .about_coursesHealine{
+        width: 100%;
+        height: 100px;
+     /* background-color: aqua;  */
+}
+    .coursesHeadline-nv{
+        /* background-color: black; */
+        overflow-x: scroll;
+        overflow-y:hidden ;
+        scroll-behavior: smooth;
+    }
+    .coursesHeadline-nav{
+        /* background-color:blueviolet; */
+        width: 1300px;
+        padding-top: 10px;
+        padding-bottom: 18px;
+        cursor: pointer;
+        /* background-color: blanchedalmond; */
+}
+    .course_nav {
+        background-color: white;
+        padding: 8px 20px;
+        border: 1px solid gray;
+        border-radius: 20px;
+        font-size: 14px;
+        color: #3d4753;
+}
+    .coursesHeadline_container{
+        width: 100%;
+     /* background-color: black; */
+}
+    .home_courseHeadline{
+        width: auto;
+        height: auto;
+        padding: 10px 10px;
+     /* background-color: burlywood;  */
+        border:2px solid#edf0f1;
+        border-radius: 6px;
+}
+    .content_coursesHeadline{
+        height: 100px;
+    
+} 
+    .h2content_coursesHeadline{
+        font-family: "-apple-system",Roboto,"segoe ui",Helvetica,Arial,sans-serif; 
+        font-size:19px;
+        padding: 0px;
+        font-weight: 600;
+        margin:0px;
+        line-height: 1;
+        color: #1f2833;
+        width: auto;
+        letter-spacing: -.05rem;
+}
+    .pcontent_coursesHeadline{
+        display: none;
+}
+    .anchorbtn_coursesHeadline{
+        text-decoration: none;
+        padding-top: 0px;
+        padding-bottom: 5px;
+        color: black;
+        font-size: 15px;
+        font-weight: 500;
+        border: 2px solid hsl(195, 12%, 94%);
+        border-radius: 6px;
+        background-color: #fff;
+}
+
+    .courses_container{
+        overflow-x: scroll;
+        overflow-y:hidden;
+        scroll-behavior: smooth;
+    /* background-color: yellow; */
+}
+  
+    .scroll-courses{
+        width: 3500px;
+        scroll-behavior: smooth;
+        display: flex;
+}
+    .course_card{
+        width: 250px;
+        height: 250px;
+        background-color:#c9cfdb;
+        border: 2px solid #edf0f1;
+        margin:5px 10px;
+        border-radius: 10px;
+        overflow: hidden;
+}
+    .course_active, .course_nav:hover {
+        background-color: #717171;
+        color: #ffffff;
+}
+  
+    footer{
+        width: 100%;
+        height: auto;
+        padding:0px 10px;
+      /* background-color: #f7f7f7; */
+        /* background-color: aqua; */
+        margin-top: 2PX;
+}
+    .footerContainer{
+        width: auto;
+        height: auto;
+        border: none; 
+        margin: auto;
+        padding-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+}
+    .footer-about{
+        width: 100%;
+        height:auto;
+        padding:5px 5px;
+        border: none;
+}
+    .footer-details{
+        font-size: 20px;
+        color: #1f2833;
+        font-weight: 600;
+        font-family: "-apple-system",'Roboto',"segoe ui",Helvetica,Arial,sans-serif; 
+}
+    .footer-list{
+        font-size: 15px;
+        font-weight: 400;
+        list-style-type:none;
+        padding: 20px 0px 25px 3px;
+        margin: 0;
+        line-height: 1.8;
+        font-family: "-apple-system",'Roboto',"segoe ui",Helvetica,Arial,sans-serif; 
+}
+}
+/* 490 max width screen */
+@media (max-width:400px){
+    .navbar{
+        background-color: #1f2833;
+    }
+    .navbar-brand>img{
+        width: 40px; height: auto;
+        margin:-10px 5px 0px 5px;           
+}
+    .slide{
+        margin-top:71px;
+}
+    .banner-heading{
+        z-index: 1;
+        width: 100%;
+        height:80px; 
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        margin: auto;
+        color: #fff;
+}
+    .banner-heading>h1{
+        line-height: 1.3; 
+        margin-bottom: 10px;
+        font-size: 14px;
+}
+    .banner-link{
+        text-decoration: none;
+        background-color: #1f2833;
+        padding: 3px 10px 6px 10px;
+        color: #fff;
+        font-size: 11px;
+        border-radius: 5px;
+        font-weight: 600;
+}
+    .banner-img{
+        width:100%; 
+        height: auto;
+        image-rendering: pixelated;
+        overflow-x:hidden;  
+        object-fit: contain;            
+}
+    .aboutcontainer{
+        width: 100%;
+        padding-top:40px;
+        padding-bottom: 10px;
+}  
+   
+     h1.about-home{
+        text-align: center;
+        line-height: 1.3;
+        font-size: 18px;
+        font-family: "-apple-system",Roboto,"segoe ui",Helvetica,Arial,sans-serif; 
+        color: #1f2833;
+}
+     h2.about-home{
+        padding-top: 2px;
+        text-align: center;
+        font-size: 14px;
+        font-family: "-apple-system",Roboto,"segoe ui",Helvetica,Arial,sans-serif; 
+        color: #3d4753;
+        font-weight: 400;
+}
+/* discover heading  */
+     h2.discover-heading{  
+        padding-top: 25px;
+        text-align: center;
+        font-size: 20px;
+        font-family: "-apple-system",Roboto,"segoe ui",Helvetica,Arial,sans-serif; 
+        color: #1f2833;
+        letter-spacing: -.05rem;
+}
+    p.discover-heading{
+        text-align: center;
+        font-size: 14px;
+        font-family: "-apple-system",Roboto,"segoe ui",Helvetica,Arial,sans-serif; 
+        color: #3d4753;
+        font-weight: 400;
+}
+/* scrollable card  */
+    .scroll{
+        width: 100%;
+        height: auto;
+        overflow-x: scroll;
+        overflow-y:hidden;
+        scroll-behavior: smooth;
+        /* background-color: aqua;   */
+}
+ 
+/* !-- select your courses from the following  aboard selection 0f courses   */
+
+    .main_coursesHeadline{
+        width: 100%;
+        height: 70px;
+        padding: 0px 5px;
+          /* background-color: aqua;    */
+        margin: auto;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+}
+    h2.main_coursesHeadline{
+        font-family: SuisseWorks,Georgia,Times,times new roman,serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 1.25;
+        letter-spacing: -.05rem;
+        padding: initial;
+        color: #1f2833;
+        height: initial;
+        /* #6a6f73 */
+  }
+    p.main_coursesHeadline{
+        font-family: "-apple-system",Roboto,"segoe ui",Helvetica,Arial,sans-serif; 
+        font-size:14px;
+        padding: initial;
+        font-weight: 400;
+        color: #1f2833;
+        height: initial;
+        /* letter-spacing: -.01rem; */
+}
+    .about_coursesHealine{
+        width: 100%;
+        height: 100px;
+     /* background-color: aqua;  */
+}
+    .coursesHeadline-nv{
+        /* background-color: black; */
+        overflow-x: scroll;
+        overflow-y:hidden ;
+        scroll-behavior: smooth;
+    }
+    .coursesHeadline-nav{
+        /* background-color:blueviolet; */
+        width: 1300px;
+        padding-top: 10px;
+        padding-bottom: 18px;
+        cursor: pointer;
+        /* background-color: blanchedalmond; */
+}
+    .course_nav {
+        background-color: white;
+        padding: 6px 15px;
+        border: 1px solid gray;
+        border-radius: 20px;
+        font-size: 14px;
+        color: #3d4753;
+}
+    .coursesHeadline_container{
+        width: 100%;
+     /* background-color: black; */
+}
+    .home_courseHeadline{
+        width: auto;
+        height: auto;
+        padding: 10px 5px;
+     /* background-color: burlywood;  */
+        border:2px solid#edf0f1;
+        border-radius: 6px;
+}
+    .content_coursesHeadline{
+        height: 100px;
+    
+} 
+    .h2content_coursesHeadline{
+        font-family: "-apple-system",Roboto,"segoe ui",Helvetica,Arial,sans-serif; 
+        font-size:16px;
+        padding: 0px;
+        font-weight: 600;
+        margin:0px;
+        line-height: 1;
+        color: #1f2833;
+        width: auto;
+        letter-spacing: -.02rem;
+}
+    .pcontent_coursesHeadline{
+        display: none;
+}
+    .anchorbtn_coursesHeadline{
+        text-decoration: none;
+        padding-top: 0px;
+        padding-bottom: 5px;
+        padding-left: 14px;
+        padding-right: 14px;
+        color: black;
+        font-size: 14px;
+        font-weight: 500;
+        border: 2px solid hsl(195, 12%, 94%);
+        border-radius: 6px;
+        background-color: #fff;
+}
+
+    .courses_container{
+        overflow-x: scroll;
+        overflow-y:hidden;
+        scroll-behavior: smooth;
+    /* background-color: yellow; */
+}
+  
+    .scroll-courses{
+        width: 3500px;
+        scroll-behavior: smooth;
+        display: flex;
+}
+    .course_card{
+        width: 250px;
+        height: 250px;
+        background-color:#c9cfdb;
+        border: 2px solid #edf0f1;
+        margin:5px 10px;
+        border-radius: 10px;
+        overflow: hidden;
+}
+    .course_active, .course_nav:hover {
+        background-color: #717171;
+        color: #ffffff;
+}
+  
+    footer{
+        width: 100%;
+        height: auto;
+        padding:0px 10px;
+      /* background-color: #f7f7f7; */
+        /* background-color: aqua; */
+        margin-top: auto;
+}
+    .footerContainer{
+        width: auto;
+        height: auto;
+        border: none; 
+        margin: auto;
+        padding-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+}
+    .footer-about{
+        width: 100%;
+        height:auto;
+        padding:5px 5px;
+        border: none;
+}
+    .footer-details{
+        font-size: 20px;
+        color: #1f2833;
+        font-weight: 600;
+        font-family: "-apple-system",'Roboto',"segoe ui",Helvetica,Arial,sans-serif; 
+}
+    .footer-list{
+        font-size: 15px;
+        font-weight: 400;
+        list-style-type:none;
+        padding: 20px 0px 25px 3px;
+        margin: 0;
+        line-height: 1.8;
+        font-family: "-apple-system",'Roboto',"segoe ui",Helvetica,Arial,sans-serif; 
+}
+}
+@media (max-width:290px) {
+    .navbar-toggler{
+        padding:0px;
+    }
+    .navbar-brand>img{
+        width: 35px; height: auto;
+        margin:-10px 5px 0px 5px;
+                   
+}
+.navbar-brand>span{
+    font-size: 30px;
+}
+}
